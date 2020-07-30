@@ -1,0 +1,10 @@
+docker container run --name roach-warden \
+	--network docker-1-bridge \
+	--publish 8081:80 \
+	--env PMA_HOST=spawning-pool \
+	--detach \
+	phpmyadmin/phpmyadmin
+
+# --env , -e — Set environment variables.
+# -d, --detach — Run container in background and print container ID.
+# -p, --publish list — Publish a container's port(s) to the host.

@@ -1,1 +1,3 @@
+# assigns the environment variables
+
 eval $(docker-machine env Char)

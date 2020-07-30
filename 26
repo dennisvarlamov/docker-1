@@ -1,0 +1,15 @@
+docker service create --name engineering-bay \
+	--detach \
+	--replicas 2 \
+	--network overmind \
+	--env OC_USERNAME=nglynis \
+	--env OC_PASSWD=1234 \
+	42school/engineering-bay
+
+# How to use
+# You must have an orbital-command running on your host or swarm, accessible with the same name into your network.
+
+# To connect to this orbital-command, you must set a
+
+# OC_USERNAME : Username used to access to orbital-command
+# OC_PASSWD : Password used to access to orbital-command

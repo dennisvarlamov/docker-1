@@ -1,1 +1,3 @@
-docker exec spawning-pool env
+docker container exec spawning-pool env
+
+# The docker exec command runs a new command in a running container.
