@@ -1,0 +1,5 @@
+docker inspect -f '{{.NetworkSettings.IPAddress}}' overlord
+
+# or you can use -- docker inspect -f '{{.NetworkSettings.IPadress}}' ID--
+# to find out ID of "overlord" we have to use "docker inspect overlord"
+# -f, --format string — Format the output using the given Go template.

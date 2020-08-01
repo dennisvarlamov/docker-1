@@ -1,0 +1,3 @@
+# at first we have to install docker-machine via "Managed Software Center"
+
+docker-machine create --driver virtualbox Char

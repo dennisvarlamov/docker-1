@@ -1,0 +1,8 @@
+docker container run --interactive --tty --rm alpine sh
+
+# -i, --interactive — Keep STDIN open even if not attached.
+# -t, --tty — Allocate a pseudo-TTY. 
+# --rm — Automatically remove the container when it exits.
+
+#                   Starting a Shell in the Docker Alpine Container:
+# Usually, an Alpine Linux image doesn't contain bash, Instead you can use /bin/sh.

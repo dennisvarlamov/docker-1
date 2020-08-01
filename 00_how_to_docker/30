@@ -1,0 +1,5 @@
+docker service update --replicas=20 marines
+
+#How to check logs?
+
+#docker service logs -f $(docker service ps marines -f "name=marines.11" -q)

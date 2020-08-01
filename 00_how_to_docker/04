@@ -1,0 +1,4 @@
+# we have to download something from DockerHub. For examle it's may be "Hello World"
+# if you want to check, you can use "$ docker image ls" - this command shows images which provides on your PC.
+
+docker pull hello-world
